@@ -1,6 +1,6 @@
 ---
   - name: Display the JSON file content
-    shell: cat /root/openstack/jsonAnsible/tasks/openstack-vm-prov.json
+    shell: cat /root/openstack/openstack-vm-prov.json
     register: result
 
   - name: save the Json data to a Variable as a Fact
